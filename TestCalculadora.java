@@ -3,37 +3,25 @@ package com.krakedev;
 public class TestCalculadora {
 
 	public static void main(String[] args) {
-		Calculadora calcu;
-		mostrarResultado result;
-		
-		int resultado;
-		int resultado1;
-		double resultadoMultiplicacion;
-		double resultadoDividir;
-		double resultadoPromedio;
-		
-		calcu = new Calculadora();
-		result = new mostrarResultado();
-		
-		resultado=calcu.sumar(5, 3);
-		resultado1=calcu.restar(10, 8);
-		resultadoMultiplicacion = calcu.multiplicar(3,7);
-		resultadoDividir = calcu.divir(10,5);
-		resultadoPromedio=calcu.promediar(6,9,10);
-		
-		
-		
-		System.out.println("resultado suma:"+resultado);
-		System.out.println("resultado resta :"+resultado1);
-		System.out.println("resultado multiplicacion : "+resultadoMultiplicacion);
-		System.out.println("resyultado divir : "+resultadoDividir);
-		System.out.println("resultado promedio : "+resultadoPromedio);
-		
-		
-		
-		result.saludar();
-		
 
+		// Crear objeto Calculadora
+		Calculadora calcu = new Calculadora();
+
+		// Asignar valores usando setters
+		calcu.setValor1(10);
+		calcu.setValor2(5);
+		calcu.setValor3(15);
+
+		// Mostrar valores asignados
+		System.out.println("Valor 1: " + calcu.getValor1());
+		System.out.println("Valor 2: " + calcu.getValor2());
+		System.out.println("Valor 3: " + calcu.getValor3());
+
+		// Calcular y mostrar resultados
+		System.out.println("Resultado suma: " + calcu.sumar());
+		System.out.println("Resultado resta: " + calcu.restar());
+		System.out.println("Resultado multiplicación: " + calcu.multiplicar());
+		System.out.println("Resultado división: " + calcu.dividir());
+		System.out.println("Resultado promedio: " + calcu.promediar());
 	}
-	
 }

@@ -7,9 +7,9 @@ public class TestCuadrado {
 		
 		double cuadrado1; 
 		
-		c1.lado = 12;
+		c1.setLado(12);
 		
-		cuadrado1 =c1.calcularArea();
+		cuadrado1 =c1.getLado();
 		
 		System.out.println("El area del cuadrado es :" +cuadrado1);
 	}
