@@ -6,7 +6,15 @@ public class Calculadora {
 	private int valor1;
 	private int valor2;
 	private double valor3;
-
+	
+	
+	public Calculadora(int valor1,int valor2,double valor3) {
+		this.valor1=valor1;
+		this.valor2=valor2;
+		this.valor3=valor3;
+		
+	}
+	
 	// ---------- MÉTODOS SET ----------
 	public void setValor1(int valor1) {
 		this.valor1 = valor1;

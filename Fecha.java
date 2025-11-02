@@ -2,15 +2,23 @@ package com.krakedev;
 
 public class Fecha {
 	
-	private int año;
+	private int ano;
 	private int mes;
 	private int dia;
 	
-	public int getAño() {
-		return año;
+	public Fecha (int ano,int mes,int dia) {
+		this.ano=ano;
+		this.mes=mes;
+		this.dia=dia;
+		
+		
 	}
-	public void setAño(int año) {
-		this.año = año;
+	
+	public int getAño(int ano) {
+		return ano;
+	}
+	public void setAño(int ano) {
+		this.ano = ano;
 	}
 	public int getMes() {
 		return mes;

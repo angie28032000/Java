@@ -5,12 +5,8 @@ public class TestCalculadora {
 	public static void main(String[] args) {
 
 		// Crear objeto Calculadora
-		Calculadora calcu = new Calculadora();
+		Calculadora calcu = new Calculadora(2,3,4.9);
 
-		// Asignar valores usando setters
-		calcu.setValor1(10);
-		calcu.setValor2(5);
-		calcu.setValor3(15);
 
 		// Mostrar valores asignados
 		System.out.println("Valor 1: " + calcu.getValor1());

@@ -3,7 +3,7 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1 = new Cuadrado();
+		Cuadrado c1 = new Cuadrado(2);
 		
 		double cuadrado1; 
 		
