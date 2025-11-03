@@ -14,10 +14,10 @@ public class Fecha {
 		
 	}
 	
-	public int getAño(int ano) {
+	public int getAno(int ano) {
 		return ano;
 	}
-	public void setAño(int ano) {
+	public void setAno(int ano) {
 		this.ano = ano;
 	}
 	public int getMes() {
