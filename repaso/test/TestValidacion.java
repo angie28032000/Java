@@ -1,4 +1,4 @@
-package com.cmc.repaso.test;
+package com.krakedev.repaso.test;
 
 import com.cmc.repaso.entidades.Validacion;
 

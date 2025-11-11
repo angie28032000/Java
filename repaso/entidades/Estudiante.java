@@ -1,4 +1,4 @@
-package com.cmc.repaso.entidades;
+package com.krakedev.repaso.entidades;
 
 public class Estudiante {
     private String nombre;
