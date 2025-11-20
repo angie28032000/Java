@@ -7,6 +7,7 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	private String Cedula;
+	private char genero; // 'M' para masculino, 'F' para femenino
 	private ArrayList<Nota> notas;
 
 	public Estudiante(String cedula, String nombre, String apellido) {
@@ -14,6 +15,14 @@ public class Estudiante {
 	    this.nombre = nombre;
 	    this.apellido = apellido;
 	    this.notas = new ArrayList<Nota>(); // ✅ aquí se inicializa
+	}
+	
+	public Estudiante(String cedula, String nombre, String apellido, char genero) {
+	    this.Cedula = cedula;
+	    this.nombre = nombre;
+	    this.apellido = apellido;
+	    this.genero = genero;
+	    this.notas = new ArrayList<Nota>();
 	}
 	
 	public void agregarNota(Nota nuevaNota) {
@@ -117,6 +126,14 @@ public class Estudiante {
 
 	public void setNotas(ArrayList<Nota> notas) {
 		this.notas = notas;
+	}
+
+	public char getGenero() {
+		return genero;
+	}
+
+	public void setGenero(char genero) {
+		this.genero = genero;
 	}
 
 }

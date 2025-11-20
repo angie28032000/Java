@@ -81,4 +81,17 @@ public class Curso {
     public void setEstudiantes(ArrayList<Estudiante> estudiantes) {
         this.estudiantes = estudiantes;
     }
+    
+    // 🔹 Método para buscar estudiantes hombres
+    public ArrayList<Estudiante> buscarHombre() {
+        ArrayList<Estudiante> hombres = new ArrayList<Estudiante>();
+        
+        for (Estudiante e : estudiantes) {
+            if (e.getGenero() == 'M' || e.getGenero() == 'm') {
+                hombres.add(e);
+            }
+        }
+        
+        return hombres;
+    }
 }
