@@ -11,7 +11,7 @@ public class Registro_empleado {
     private int codigoempleado;
 
     public Registro_empleado() {
-    	
+    
     }
 
     public Registro_empleado(int codigo_registro, String cedula, int codigoempleado) {
